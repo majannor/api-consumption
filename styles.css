@@ -1,5 +1,29 @@
-nav {
-    background-color: darkblue;
+header {
+    background-color: #000C66;
+    border-top: 0.5rem solid;
+    border-bottom: 1px solid;
     color: white;
+    font-family: "Arial", sans-serif;
+    margin-bottom: 1rem;
 }
+
+main {
+    font-family: "Arial", sans-serif;
+}
+
+h1 {
+    margin-left: 0.5rem;
+}
+
+div {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+
+
+
+
 

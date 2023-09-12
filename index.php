@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>API consumption</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"/>
     <script src="js/script.js" defer></script>
 </head>
 <body>
     <header>
-        <nav>
-            <h1>API consumption</h1>
-        </nav>
+        <h1>API Consumption</h1>
     </header>
     <main>
         <form id="search-form">
@@ -20,14 +18,14 @@
                 <input type="text" id="search-city" name="city" required>
                 <button type="submit">Town information</button>
             </div> 
-            <!-- Weather -->
-            <div id="weatherInfo">
-                <p id="weatherData"></p>
-            </div>
         </form>
-
-        <!-- Map -->
-        <div id="mapData">          
+        
+        <div>
+            <!-- Weather -->
+            <p id="weatherData"></p>
+            
+            <!-- Map -->
+            <p id="mapData"></p>
         </div>
 
         <!-- Events -->
